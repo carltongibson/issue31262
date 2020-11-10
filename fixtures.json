@@ -1,0 +1,312 @@
+[
+  {
+    "fields": {
+      "name": "Alice"
+    },
+    "model": "example.author",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "name": "Bob"
+    },
+    "model": "example.author",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "name": "Claire"
+    },
+    "model": "example.author",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "name": "David"
+    },
+    "model": "example.author",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "name": "Eve"
+    },
+    "model": "example.author",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "name": "Frank"
+    },
+    "model": "example.author",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "name": "Gertrude"
+    },
+    "model": "example.author",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "name": "Harry"
+    },
+    "model": "example.author",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "name": "Ingrid"
+    },
+    "model": "example.author",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "name": "James"
+    },
+    "model": "example.author",
+    "pk": 10
+  },
+  {
+    "fields": {
+      "name": "Addison Wesley"
+    },
+    "model": "example.publisher",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "name": "Apress"
+    },
+    "model": "example.publisher",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "name": "Manning"
+    },
+    "model": "example.publisher",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "name": "Microsoft"
+    },
+    "model": "example.publisher",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "name": "No Starch"
+    },
+    "model": "example.publisher",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "name": "O\u2019Reilly"
+    },
+    "model": "example.publisher",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "name": "Pearson"
+    },
+    "model": "example.publisher",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "name": "PragProg"
+    },
+    "model": "example.publisher",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "name": "Prentice Hall"
+    },
+    "model": "example.publisher",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "name": "Smashing"
+    },
+    "model": "example.publisher",
+    "pk": 10
+  },
+  {
+    "fields": {
+      "name": "ASP.Net"
+    },
+    "model": "example.topic",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "name": "Datasette"
+    },
+    "model": "example.topic",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "name": "Django"
+    },
+    "model": "example.topic",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "name": "Express"
+    },
+    "model": "example.topic",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "name": "FastAPI"
+    },
+    "model": "example.topic",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "name": "Flask"
+    },
+    "model": "example.topic",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "name": "Pheonix"
+    },
+    "model": "example.topic",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "name": "Rails"
+    },
+    "model": "example.topic",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "name": "Starlette"
+    },
+    "model": "example.topic",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "name": "Symfony"
+    },
+    "model": "example.topic",
+    "pk": 10
+  },
+  {
+    "fields": {
+      "author": 9,
+      "name": "How to ASP.Net",
+      "publisher": 5,
+      "topic": 1
+    },
+    "model": "example.book",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "author": 9,
+      "name": "How to Datasette",
+      "publisher": 5,
+      "topic": 2
+    },
+    "model": "example.book",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "author": 9,
+      "name": "How to Django",
+      "publisher": 5,
+      "topic": 3
+    },
+    "model": "example.book",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "author": 9,
+      "name": "How to Express",
+      "publisher": 5,
+      "topic": 4
+    },
+    "model": "example.book",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "author": 9,
+      "name": "How to FastAPI",
+      "publisher": 5,
+      "topic": 5
+    },
+    "model": "example.book",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "author": 9,
+      "name": "How to Flask",
+      "publisher": 5,
+      "topic": 6
+    },
+    "model": "example.book",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "author": 9,
+      "name": "How to Pheonix",
+      "publisher": 5,
+      "topic": 7
+    },
+    "model": "example.book",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "author": 9,
+      "name": "How to Rails",
+      "publisher": 5,
+      "topic": 8
+    },
+    "model": "example.book",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "author": 9,
+      "name": "How to Starlette",
+      "publisher": 5,
+      "topic": 9
+    },
+    "model": "example.book",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "author": 9,
+      "name": "How to Symfony",
+      "publisher": 5,
+      "topic": 10
+    },
+    "model": "example.book",
+    "pk": 10
+  }
+]
