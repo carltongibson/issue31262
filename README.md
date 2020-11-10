@@ -15,6 +15,13 @@ Visit: <http://127.0.0.1:8000/admin/example/book/>
 * 14 queries on `master`/`3.1.x`
 * 74 queries on `pull/12449/head`
 
+14 and 74 is too high:
+
+* there's an issue with debug-toolbar-duplicating queries
+* https://github.com/jazzband/django-debug-toolbar/issues/1239
+* Comment out overriding `chunked_cursor` in `site-packages/debug_toolbar/panels/sql/tracking.py` to see it properly.
+* It's about 11 vs 45, like so, but still.
+
 This diff fixes the regression:
 
 ```diff
